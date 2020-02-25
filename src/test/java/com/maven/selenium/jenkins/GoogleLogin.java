@@ -24,7 +24,7 @@ public class GoogleLogin {
 
 		driver.get("https://www.google.com");
 		
-		System.out.println("Google in GoogleLogin class updated");
+		System.out.println("Google in GoogleLogin class updated in eclipse");
 		
 		//Step4:Manage the browser
 		driver.manage().window().maximize();
