@@ -16,6 +16,7 @@
       </class> <!-- com.maven.selenium.jenkins.GoogleLogin -->
       <class name="com.maven.selenium.jenkins.Amazonlogin">
         <methods>
+          <include name="close"/>
           <include name="setdriver"/>
         </methods>
       </class> <!-- com.maven.selenium.jenkins.Amazonlogin -->
