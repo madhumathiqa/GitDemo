@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13767" started-at="2020-02-03T20:09:50Z" finished-at="2020-02-03T20:10:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13767" started-at="2020-02-03T20:09:50Z" finished-at="2020-02-03T20:10:04Z">
+      <class name="com.maven.selenium.jenkins.Amazonlogin">
+        <test-method status="PASS" signature="setdriver()[pri:0, instance:com.maven.selenium.jenkins.Amazonlogin@51565ec2]" name="setdriver" is-config="true" duration-ms="2747" started-at="2020-02-03T12:09:50Z" finished-at="2020-02-03T12:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdriver -->
+        <test-method status="PASS" signature="openAmazonUrl()[pri:0, instance:com.maven.selenium.jenkins.Amazonlogin@51565ec2]" name="openAmazonUrl" duration-ms="1905" started-at="2020-02-03T12:09:53Z" finished-at="2020-02-03T12:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonUrl -->
+        <test-method status="PASS" signature="openGogoleUrl()[pri:0, instance:com.maven.selenium.jenkins.Amazonlogin@51565ec2]" name="openGogoleUrl" duration-ms="9098" started-at="2020-02-03T12:09:55Z" finished-at="2020-02-03T12:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGogoleUrl -->
+      </class> <!-- com.maven.selenium.jenkins.Amazonlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

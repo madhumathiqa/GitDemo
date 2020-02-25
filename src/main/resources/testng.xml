@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MavendemoSuite">
+  <test thread-count="5" name="MavendemoTest">
+    <classes>
+      <class name="com.maven.selenium.jenkins.Amazonlogin"/>
+      <class name="com.maven.selenium.jenkins.GoogleLogin"/>
+    </classes>
+  </test> <!-- MavendemoTest -->
+</suite> <!-- MavendemoSuite -->
