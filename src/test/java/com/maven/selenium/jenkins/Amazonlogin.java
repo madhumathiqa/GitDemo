@@ -30,7 +30,7 @@ public class Amazonlogin {
 	@Test
 	public void openGogoleUrl()
 	{
-		System.out.println("Opening Google homepage");
+		System.out.println("Opening Google homepage in chrome");
 		driver1.get("https://www.google.com");
 	}
 	
