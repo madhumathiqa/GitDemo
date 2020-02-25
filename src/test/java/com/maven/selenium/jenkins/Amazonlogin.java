@@ -37,6 +37,7 @@ public class Amazonlogin {
 	@AfterTest
 	public void close() {
 		driver.close();
+		System.out.println("hai");
 	}
 	
 	
