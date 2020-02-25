@@ -3,6 +3,7 @@ package com.maven.selenium.jenkins;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class Amazonlogin {
@@ -31,6 +32,11 @@ public class Amazonlogin {
 	{
 		System.out.println("Opening Google homepage");
 		driver1.get("https://www.google.com");
+	}
+	
+	@AfterTest
+	public void close() {
+		driver.close();
 	}
 	
 	
