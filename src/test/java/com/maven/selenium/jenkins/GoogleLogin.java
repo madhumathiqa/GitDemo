@@ -27,13 +27,14 @@ public class GoogleLogin {
 		System.out.println("Google in GoogleLogin class updated in git");
 		
 		//Step4:Manage the browser
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);		
 		
 		driver.findElement(By.name("q")).sendKeys("Java");
 		
-		driver.findElement(By.name("btnK")).click();
+		//driver.findElement(By.name("btnK")).click();
 
 	}
 }

@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MavendemoSuite]">
-  <test thread-count="5" name="MavendemoTest">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.maven.selenium.jenkins.Amazonlogin"/>
       <class name="com.maven.selenium.jenkins.GoogleLogin"/>
     </classes>
-  </test> <!-- MavendemoTest -->
-  <test name="MavendemoTest(failed)">
-    <classes>
-      <class name="com.maven.selenium.jenkins.GoogleLogin">
-        <methods>
-          <include name="openGoogle"/>
-        </methods>
-      </class> <!-- com.maven.selenium.jenkins.GoogleLogin -->
-      <class name="com.maven.selenium.jenkins.Amazonlogin">
-        <methods>
-          <include name="close"/>
-          <include name="setdriver"/>
-        </methods>
-      </class> <!-- com.maven.selenium.jenkins.Amazonlogin -->
-    </classes>
-  </test> <!-- MavendemoTest(failed) -->
-</suite> <!-- Failed suite [MavendemoSuite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
