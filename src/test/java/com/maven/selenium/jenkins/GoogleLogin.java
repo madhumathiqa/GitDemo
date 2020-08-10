@@ -35,6 +35,13 @@ public class GoogleLogin {
 		driver.findElement(By.name("q")).sendKeys("Java");
 		
 		//driver.findElement(By.name("btnK")).click();
+<<<<<<< Updated upstream
+=======
+		System.out.println("hai to branch");
+		System.out.println("hit to sara");
+		System.out.println("hai to saraaa");
+		System.out.println("hai to saraaa1");
+>>>>>>> Stashed changes
 
 	}
 }
